@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Events organizing</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to College Events</h1>
+        <nav class="navbar">
+            <ul>
+                <li><b><a href="Lab Session - 4.html" target="_blank">Home</a></b></li>
+                <li><b><a href="Technical.html" target="_blank">Technical Event</a></b></li>
+                <li><b><a href="Cultural.html" target="_blank">Cultural Event</a></b></li>
+                <li><b><a href="Sport.html" target="_blank">Sports Event</a></b></li>
+                <li><b><a href="Registration.html" target="_blank">Registration</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-info">
+            <form action="#">
+                <fieldset>
+                    <legend>Student Registration Information</legend>
+                    <fieldset class="personal_detail">
+                        <legend>Personal Details</legend>
+                        <label for="name" class="label"><b>Name:</b></label>
+                        <input type="text" id="name" class="inputtypespace" name="name" required></br>
+
+                        <label for="enroll" class="label"><b>Enrollment:</b></label>
+                        <input type="number" class="inputtypespace" id="enroll" value="210210107505" name="enroll"
+                            required><br />
+
+                        <label for="email" class="label"><b>Email:</b></label>
+                        <input type="email" class="inputtypespace" id="email" name="email" required></br>
+
+                        <label for="phone" class="label"><b>Mobile No:</b></label>
+                        <input type="tel" id="phone" class="inputtypespace" title="Please enter valid phone number" name="phone" pattern="[6789][0-9]{9}" placeholder="Enter only 10 digits" required>
+                    </br>
+                        <label for="dob" class="label"><b>Date Of Birth:</b></label>
+                        <input type="date" class="inputtypespace" id="college" name="college" required></br>
+
+                        <label for="city" class="label"><b>City:</b></label>
+                        <select name="city" id="cname" class="inputtypespace">
+                            <option value="">Visnagar</option>
+                            <option value="">Bhavnagar</option>
+                            <option value="">Gandhinagar</option>
+                            <option value="">Ahmedabad</option>
+                            <option value="">Mehsana</option>
+                            <option value="">Amreli</option>
+                            <option value="">Rajula</option>
+                            <option value="">Rajkot</option>
+                            <option value="">Nadiad</option>
+                            <option value="">Vadodara</option>
+                        </select></br>
+                    </fieldset>
+
+                    <fieldset class="personal_detail">
+                        <legend>Education Details</legend>
+                        <label for="cname" class="label">College Name:</label>
+                        <select name="cname" id="cname" class="inputtypespace">
+                            <option value="">Shantilal Shah Engineering College</option>
+                            <option value="">Government Engineering College, Bhavnagar</option>
+                            <option value="">Swami Sachchidanand Polytechnic College, Visnagar</option>
+                            <option value="">Lalbhai Dalpatbhai College of Engineering (LDCE)</option>
+                            <option value="">Vishwakarma Government Engineering College (VGEC)</option>
+                        </select></br>
+
+                        <label for="sem" class="label">Semester:</label><br/>
+                        <input type="radio" name="sem" value="sem1" checked>
+                        <label for="sem">SEM 1</label>
+
+                        <input type="radio" name="sem" value="sem2">
+                        <label for="sem">SEM 2</label>
+
+                        <input type="radio" name="sem" value="sem3">
+                        <label for="sem">SEM 3</label>
+
+                        <input type="radio" name="sem" value="sem4">
+                        <label for="sem">SEM 4</label>
+
+                        <input type="radio" name="sem" value="sem5">
+                        <label for="sem">SEM 5</label>
+
+                        <input type="radio" name="sem" value="sem6">
+                        <label for="sem">SEM 6</label>
+
+                        <input type="radio" name="sem" value="sem7">
+                        <label for="sem">SEM 7</label>
+
+                        <input type="radio" name="sem" value="sem8">
+                        <label for="sem">SEM 8</label>
+                    </fieldset>
+
+                    <fieldset class="personal_detail">
+                        <legend>Event Preference</legend>
+                        <input type="checkbox" id="cultural" name="cultural" value="cultural">
+                        <label for="cultural" class="label">Cultural</label>
+
+                        <input type="checkbox" id="sport" name="sport" value="sport">
+                        <label for="sport" class="label">Sport</label>
+
+                        <input type="checkbox" id="tech" name="tech" value="tech">
+                        <label for="tech" class="label">Technical</label>
+                    </fieldset>
+
+                    <fieldset class="personal_detail">
+                        <legend>Login Details</legend>
+
+                        <label for="username" class="label">Username:</label>
+                        <input type="username" class="inputtypespace" id="username" name="username"></br>
+
+                        <label for="password" class="label">Password:</label>
+                        <input type="password" class="inputtypespace" id="password" name="password">
+                    </fieldset>
+
+                    <input type="submit" value="Submit" class="btn">
+                    <input type="reset" value="Reset" class="rst">
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <div class="sticky">
+        <footer>
+            <marquee behavior="alternate" direction="right" scrollamount="14">For more details, Visit <a
+                    href="http://www.gecbh.cteguj.in/" target="_blank">"GEC Bhavnagar Official Website"</a></marquee>
+        </footer>
+    </div>
+</body>
+</html>
